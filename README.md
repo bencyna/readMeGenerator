@@ -1,9 +1,9 @@
 # ReadMe Generator
 
-   [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
     
    ## Description
-   This project uses node.js and the inquirer package to generate a read.me file based on input from user given their answers to the prompts provided.    
+   This project uses node.js and the inquirer package to generate a read.me file based on input from user given their answers to the prompts provided.     
   
    ## Table Of Contents
    * [Installation](##Installation)
@@ -18,14 +18,12 @@
   
    ## Usage
    ![image of code and integrated terminal](./assets/screenshot1.jpg)
-   
-   The above image shows the part of the code that creates the file and also part of the code that is being generated using the users input 
 
    ## License
-   This project is covered under the BSD License  
+   This project is covered under the MIT License  
       
    ## Contributing
-   [bencyna](https://github.com/bencyna)
+      [bencyna](https://github.com/bencyna/)
   
    ## Tests
    Run the following command into the root directory: ```node index.js```
