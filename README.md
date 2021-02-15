@@ -14,7 +14,7 @@
    * [Questions](##Questions)
   
    ## Installation
-   Prompts are displayed one at a time in the terminal to the user when the command node index.js is run in the terminal. Once the user has given their input, their responses are saved and a quality README file is created with the users input.
+   Prompts are displayed one at a time in the terminal to the user when the command node index.js is run in the terminal. Once the user has given their input, their responses are saved and a quality README file is created with the users input included.
   
    ## Usage
    ![image of code and integrated terminal](./assets/screenshot1.jpg)
