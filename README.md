@@ -3,7 +3,7 @@
    [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
     
    ## Description
-   This project uses node.js and the inquirer package to generate a read.me file based on input from user given their answers to the prompts provided.     
+   This project uses node.js and the inquirer package to generate a read.me file based on input from user given their answers to the prompts provided.    
   
    ## Table Of Contents
    * [Installation](##Installation)
