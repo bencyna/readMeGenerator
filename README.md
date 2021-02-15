@@ -18,8 +18,7 @@
   
    ## Usage
    ![image of code and integrated terminal](./assets/screenshot1.jpg)
-   The above image shows an exmaple of the code generated and the command line example 
-
+   The above image shows an exmaple of the code generated and the command line example.
    ## License
    This project is covered under the MIT License  
       
