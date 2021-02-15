@@ -120,7 +120,7 @@ const promptUser = () => {
 
       fs.writeFile("README.md", newFile, null, (err) => {
         err
-          ? console.log(err)
+          ? console.log("Oops, there was a problem: " + err)
           : console.log("ReadMe file successfully created!");
       });
     });
