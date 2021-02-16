@@ -19,6 +19,9 @@
    ## Usage
    ![image of code and integrated terminal](./assets/screenshot1.jpg)
    The above image shows an exmaple of the code generated and the command line example.
+   
+   [link to example vid](https://drive.google.com/file/d/1aQGTAFTtEs0Dshr0jKyaXYu0ogfcjNdz/view?usp=sharing)
+
    ## License
    This project is covered under the MIT License  
       
