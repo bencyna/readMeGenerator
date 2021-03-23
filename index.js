@@ -68,17 +68,17 @@ const promptUser = () => {
         email,
         GitHub,
       } = answers;
-      if ((license = "MIT")) {
+      if ((answers.license = "MIT")) {
         badge =
-          "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
+          "[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)";
         licenseName = "MIT license";
       }
-      if ((license = "Apache")) {
+      if ((answers.license = "Apache")) {
         badge =
           "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
         licenseName = "Apache License";
       }
-      if ((licence = "BSD")) {
+      if ((answers.license = "BSD")) {
         badge =
           "[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)";
         licenseName = "BSD License";
@@ -118,12 +118,11 @@ const promptUser = () => {
    If you have any questions about this project, you can veiw my github account at ${GitHub} or email me at ${email}
    `;
 
-      fs.writeFile("README.md", newFile, null, (err) => {
+      fs.writeFile("../README.md", newFile, null, (err) => {
         err
           ? console.log("Oops, there was a problem: " + err)
           : console.log("ReadMe file successfully created!");
       });
     });
 };
-promptUser()
-
+promptUser();
